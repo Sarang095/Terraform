@@ -3,7 +3,7 @@ variable REGION {
 }
 
 variable USER {
-    default = "ubuntu"
+    default = "ec2-user"
 }
 
 variable ZONE {
@@ -13,7 +13,7 @@ variable ZONE {
 variable AMIS {
     type = map
     default = {
-        us-east-1 = "ami-04b70fa74e45c3917"
+        us-east-1 = "ami-08a0d1e16fc3f61ea"
     }
 }
 
