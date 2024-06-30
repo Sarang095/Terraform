@@ -1,5 +1,4 @@
 #!/bin/bash
-   sudo -i
    yum install git httpd -y  
    systemctl start httpd
    systemctl enable httpd

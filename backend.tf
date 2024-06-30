@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "sourcebucket-ccc49"
+    bucket = "source-bucket-ccc49-useast2"
     key    = "terraform/backend"
-    region = "us-east-1"
+    region = "us-east-2"
   }
 }
